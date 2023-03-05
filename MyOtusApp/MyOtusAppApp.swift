@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MyOtusAppApp: App {
+
+    let viewModel = ViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: viewModel)
         }
     }
 }

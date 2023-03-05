@@ -11,6 +11,9 @@
 		FAEE92D529B5365200DAFAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92D429B5365200DAFAF5 /* ContentView.swift */; };
 		FAEE92D729B5365300DAFAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEE92D629B5365300DAFAF5 /* Assets.xcassets */; };
 		FAEE92DA29B5365300DAFAF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEE92D929B5365300DAFAF5 /* Preview Assets.xcassets */; };
+		FAEE92E129B53AAC00DAFAF5 /* Top250DataDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92E029B53AAC00DAFAF5 /* Top250DataDetail.swift */; };
+		FAEE92E329B53BE000DAFAF5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92E229B53BE000DAFAF5 /* NetworkService.swift */; };
+		FAEE92E529B53E7B00DAFAF5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92E429B53E7B00DAFAF5 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		FAEE92D429B5365200DAFAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAEE92D629B5365300DAFAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEE92D929B5365300DAFAF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAEE92E029B53AAC00DAFAF5 /* Top250DataDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top250DataDetail.swift; sourceTree = "<group>"; };
+		FAEE92E229B53BE000DAFAF5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FAEE92E429B53E7B00DAFAF5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				FAEE92D229B5365200DAFAF5 /* MyOtusAppApp.swift */,
 				FAEE92D429B5365200DAFAF5 /* ContentView.swift */,
+				FAEE92E029B53AAC00DAFAF5 /* Top250DataDetail.swift */,
+				FAEE92E229B53BE000DAFAF5 /* NetworkService.swift */,
+				FAEE92E429B53E7B00DAFAF5 /* ViewModel.swift */,
 				FAEE92D629B5365300DAFAF5 /* Assets.xcassets */,
 				FAEE92D829B5365300DAFAF5 /* Preview Content */,
 			);
@@ -83,6 +92,8 @@
 			dependencies = (
 			);
 			name = MyOtusApp;
+			packageProductDependencies = (
+			);
 			productName = MyOtusApp;
 			productReference = FAEE92CF29B5365200DAFAF5 /* MyOtusApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,8 @@
 				Base,
 			);
 			mainGroup = FAEE92C629B5365200DAFAF5;
+			packageReferences = (
+			);
 			productRefGroup = FAEE92D029B5365200DAFAF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEE92E529B53E7B00DAFAF5 /* ViewModel.swift in Sources */,
 				FAEE92D529B5365200DAFAF5 /* ContentView.swift in Sources */,
+				FAEE92E129B53AAC00DAFAF5 /* Top250DataDetail.swift in Sources */,
+				FAEE92E329B53BE000DAFAF5 /* NetworkService.swift in Sources */,
 				FAEE92D329B5365200DAFAF5 /* MyOtusAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
