@@ -9,13 +9,13 @@ import SwiftUI
 
 class ViewModel: ObservableObject {
 
-    @Published private(set) var top250List: [Top250DataDetail] = []
+    @Published private(set) var movies: [Movie] = []
 
-    func fetch250list() {
-        NetworkService.shared.fetch(urlString: Constants.top250urlString) { [weak self] (result: Result<Top250Movies, APIError>) in
+    func fetchList() {
+        NetworkService.shared.fetch(urlString: Constants.top250urlString) { [weak self] (result: Result<Movies, APIError>) in
             switch result {
             case let .success(data):
-                self?.top250List = data.items
+                self?.movies = data.items
             case let .failure(error):
                 print(error.localizedDescription)
             }

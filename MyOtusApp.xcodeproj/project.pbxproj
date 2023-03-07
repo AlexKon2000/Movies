@@ -7,22 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA8DDDE629B78DD40072C5FC /* FeaturesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DDDE529B78DD40072C5FC /* FeaturesScreen.swift */; };
+		FA8DDDE829B78DF80072C5FC /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DDDE729B78DF80072C5FC /* ListScreen.swift */; };
+		FA8DDDEA29B78E110072C5FC /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DDDE929B78E110072C5FC /* ListItem.swift */; };
+		FA8DDDEC29B78E300072C5FC /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DDDEB29B78E300072C5FC /* DetailScreen.swift */; };
+		FA8DDDEE29B78E570072C5FC /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8DDDED29B78E570072C5FC /* SettingsScreen.swift */; };
 		FAEE92D329B5365200DAFAF5 /* MyOtusAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92D229B5365200DAFAF5 /* MyOtusAppApp.swift */; };
 		FAEE92D529B5365200DAFAF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92D429B5365200DAFAF5 /* ContentView.swift */; };
 		FAEE92D729B5365300DAFAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEE92D629B5365300DAFAF5 /* Assets.xcassets */; };
 		FAEE92DA29B5365300DAFAF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEE92D929B5365300DAFAF5 /* Preview Assets.xcassets */; };
-		FAEE92E129B53AAC00DAFAF5 /* Top250DataDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92E029B53AAC00DAFAF5 /* Top250DataDetail.swift */; };
+		FAEE92E129B53AAC00DAFAF5 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92E029B53AAC00DAFAF5 /* Movie.swift */; };
 		FAEE92E329B53BE000DAFAF5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92E229B53BE000DAFAF5 /* NetworkService.swift */; };
 		FAEE92E529B53E7B00DAFAF5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE92E429B53E7B00DAFAF5 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA8DDDE529B78DD40072C5FC /* FeaturesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesScreen.swift; sourceTree = "<group>"; };
+		FA8DDDE729B78DF80072C5FC /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
+		FA8DDDE929B78E110072C5FC /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		FA8DDDEB29B78E300072C5FC /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		FA8DDDED29B78E570072C5FC /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		FAEE92CF29B5365200DAFAF5 /* MyOtusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOtusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEE92D229B5365200DAFAF5 /* MyOtusAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOtusAppApp.swift; sourceTree = "<group>"; };
 		FAEE92D429B5365200DAFAF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAEE92D629B5365300DAFAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEE92D929B5365300DAFAF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FAEE92E029B53AAC00DAFAF5 /* Top250DataDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top250DataDetail.swift; sourceTree = "<group>"; };
+		FAEE92E029B53AAC00DAFAF5 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FAEE92E229B53BE000DAFAF5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		FAEE92E429B53E7B00DAFAF5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +48,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA8DDDEF29B78F540072C5FC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FA8DDDED29B78E570072C5FC /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FA8DDDF029B78F6F0072C5FC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FA8DDDE529B78DD40072C5FC /* FeaturesScreen.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FA8DDDF129B78F8E0072C5FC /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				FA8DDDEB29B78E300072C5FC /* DetailScreen.swift */,
+				FA8DDDE929B78E110072C5FC /* ListItem.swift */,
+				FA8DDDE729B78DF80072C5FC /* ListScreen.swift */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		FA8DDDF229B78FD50072C5FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE92E029B53AAC00DAFAF5 /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA8DDDF329B78FE30072C5FC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE92E429B53E7B00DAFAF5 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA8DDDF429B78FEF0072C5FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE92E229B53BE000DAFAF5 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		FAEE92C629B5365200DAFAF5 = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +119,12 @@
 			children = (
 				FAEE92D229B5365200DAFAF5 /* MyOtusAppApp.swift */,
 				FAEE92D429B5365200DAFAF5 /* ContentView.swift */,
-				FAEE92E029B53AAC00DAFAF5 /* Top250DataDetail.swift */,
-				FAEE92E229B53BE000DAFAF5 /* NetworkService.swift */,
-				FAEE92E429B53E7B00DAFAF5 /* ViewModel.swift */,
+				FA8DDDEF29B78F540072C5FC /* Settings */,
+				FA8DDDF029B78F6F0072C5FC /* Features */,
+				FA8DDDF129B78F8E0072C5FC /* Movies */,
+				FA8DDDF229B78FD50072C5FC /* Models */,
+				FA8DDDF429B78FEF0072C5FC /* Services */,
+				FA8DDDF329B78FE30072C5FC /* ViewModels */,
 				FAEE92D629B5365300DAFAF5 /* Assets.xcassets */,
 				FAEE92D829B5365300DAFAF5 /* Preview Content */,
 			);
@@ -151,10 +214,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEE92E529B53E7B00DAFAF5 /* ViewModel.swift in Sources */,
+				FA8DDDE829B78DF80072C5FC /* ListScreen.swift in Sources */,
 				FAEE92D529B5365200DAFAF5 /* ContentView.swift in Sources */,
-				FAEE92E129B53AAC00DAFAF5 /* Top250DataDetail.swift in Sources */,
+				FAEE92E129B53AAC00DAFAF5 /* Movie.swift in Sources */,
+				FA8DDDEA29B78E110072C5FC /* ListItem.swift in Sources */,
 				FAEE92E329B53BE000DAFAF5 /* NetworkService.swift in Sources */,
+				FA8DDDE629B78DD40072C5FC /* FeaturesScreen.swift in Sources */,
 				FAEE92D329B5365200DAFAF5 /* MyOtusAppApp.swift in Sources */,
+				FA8DDDEE29B78E570072C5FC /* SettingsScreen.swift in Sources */,
+				FA8DDDEC29B78E300072C5FC /* DetailScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

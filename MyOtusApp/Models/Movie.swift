@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Top250DataDetail: Codable, Identifiable {
+struct Movie: Codable, Identifiable {
     let id: String
     let rank: String
     let title: String
@@ -19,6 +19,6 @@ struct Top250DataDetail: Codable, Identifiable {
     let imDbRatingCount: String
 }
 
-struct Top250Movies: Codable {
-    let items: [Top250DataDetail]
+struct Movies: Codable {
+    let items: [Movie]
 }
